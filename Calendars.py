@@ -6,3 +6,6 @@ print(sc)
 p = calendar.HTMLCalendar(calendar.MONDAY)
 hc = p.formatmonth(2020, 7)
 print(hc)
+
+for i in c.itermonthdays(2021, 8):
+    print(i)
